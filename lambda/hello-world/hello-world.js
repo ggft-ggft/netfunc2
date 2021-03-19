@@ -1,8 +1,8 @@
 const fs = require("fs").promises;
 const path = require("path");
 const fabric = require("fabric").fabric;
-const canvasDimensions = require("mbres/constants/dimensions.js");
-const generatoreService = require ("mbres/utils/utils.js");
+import canvasDimensions from "./mbres/constants/dimensions";
+import generatoreService from "./mbres/utils/utils";
 
 exports.handler = async () => {
   try {
