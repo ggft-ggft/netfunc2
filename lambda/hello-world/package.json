@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.7.0",
+    "fabric": "^4.3.1"
+  }
+}
