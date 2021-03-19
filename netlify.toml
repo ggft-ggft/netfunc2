@@ -1,5 +1,5 @@
 [build]
-command = "ls lambda/hello-world"
+command = "cp ./lib/* lambda/hello-world/node_modules/canvas/build/Release/ lambda/hello-world"
 functions = "lambda"
 
 [[plugins]]
