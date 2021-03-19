@@ -8,12 +8,17 @@ exports.handler = async () => {
       encoding: "utf-8"
     });
 
+    fabric.nodeCanvas.registerFont(path.join(__dirname, "LibreBaskerville-Regular.ttf"), {
+      family: 'Ubuntu', weight: 'regular', style: 'normal'
+    });
+
     var canvas = new fabric.StaticCanvas(null, { width: 200, height: 200 });
     var text = new fabric.Text('Hello world', {
       left: 100,
       top: 100,
       fill: '#f55',
-      angle: 15
+      angle: 15,
+      fontFamily: 'Ubuntu'
     });
     canvas.add(text);
     canvas.renderAll();
