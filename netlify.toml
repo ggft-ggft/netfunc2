@@ -1,5 +1,4 @@
 [build]
-command = "ls"
 functions = "lambda"
 
 [[plugins]]
