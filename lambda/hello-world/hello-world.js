@@ -1,6 +1,6 @@
-const fs = require("fs").promises;
-const path = require("path");
-const fabric = require('fabric').fabric
+import { promise as fs } from "fs";
+import path from "path";
+import {fabric} from "fabric";
 
 exports.handler = async () => {
   try {
